@@ -1,13 +1,6 @@
 body{
-
+  font-family: "Montserrat";
 }
-#title{
-  background-color: #ff4c68;
-  color:#ffff;
-
-}
-
-
 h1{
   font-family: "Montserrat";
   font-size: 3.5rem;
@@ -16,15 +9,23 @@ h1{
 h2{
   font-family: "Montserrat";
   font-size: 3rem;
+  line-height: 1.5;
 }
 h3{
   font-family: "Montserrat-Bold"
   font-size: 1.5rem;
-  text-align: center;
 }
 p{
   color: #8f8f8f;
 }
+#title{
+  background-color: #ff4c68;
+  color:#ffff;
+
+}
+
+
+
 .container-fluid{
   padding: 3% 15% 7%;
 }
@@ -126,6 +127,9 @@ check:hover{
   padding: 100px 200px 10px 200px;
 }
 #footer{
-  padding: 100px 100px;
+  padding: 7% 15%;
   text-align: center;
+}
+.social-img{
+  margin: 20px 10px;
 }
